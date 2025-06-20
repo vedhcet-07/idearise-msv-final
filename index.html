@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GreenGrow - IDEARISE 2025 Presentation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="presentation-container">
+      <!-- Navigation Controls -->
+      <div class="nav-controls">
+        <button class="nav-btn" id="prevBtn" aria-label="Previous slide">
+          ‹
+        </button>
+        <div class="slide-counter">
+          <span id="currentSlide">1</span> / <span id="totalSlides">10</span>
+        </div>
+        <button class="nav-btn" id="nextBtn" aria-label="Next slide">›</button>
+      </div>
+
+      <!-- Progress Bar -->
+      <div class="progress-bar">
+        <div class="progress-fill" id="progressFill"></div>
+      </div>
+
+      <!-- Slides Container -->
+      <div class="slides-container" id="slidesContainer">
+        <!-- Slide 1: Title & Team -->
+        <div class="slide active" data-slide="1">
+          <div class="slide-content title-slide">
+            <div class="title-section">
+              <h1 class="main-title">GreenGrow</h1>
+              <h2 class="subtitle">
+                Empowering Smallholder Farmers Through Smart Agriculture
+              </h2>
+              <p class="tagline">Grow More. Work Smarter. Prosper Together.</p>
+            </div>
+            <div class="team-section">
+              <h3 class="team-title">Team MSV</h3>
+              <div class="team-members">
+                <div class="member">
+                  <span class="member-name">Manish S M</span>
+                  <span class="member-branch">AI Data Science</span>
+                </div>
+                <div class="member">
+                  <span class="member-name">Shashank Kotagi</span>
+                  <span class="member-branch">CSE AI-ML</span>
+                </div>
+                <div class="member">
+                  <span class="member-name">Vishwas Desai</span>
+                  <span class="member-branch">CSE AI-ML</span>
+                </div>
+              </div>
+            </div>
+            <div class="competition-badge">IDEARISE 2025 - Round 3</div>
+          </div>
+        </div>
+
+        <!-- Slide 2: The Problem -->
+        <div class="slide" data-slide="2">
+          <div class="slide-content">
+            <h1 class="slide-title problem-title">
+              86% of India's Farmers Face a Daily Struggle
+            </h1>
+            <div class="problem-grid">
+              <div class="problem-item">
+                <div class="problem-icon">📉</div>
+                <h3>Low Crop Yields</h3>
+                <p>Keeping families trapped in poverty cycles</p>
+              </div>
+              <div class="problem-item">
+                <div class="problem-icon">💰</div>
+                <h3>High Labor Costs</h3>
+                <p>Limited access to mechanization solutions</p>
+              </div>
+              <div class="problem-item">
+                <div class="problem-icon">🌡️</div>
+                <h3>Climate Change</h3>
+                <p>Threatening 68% of agricultural areas</p>
+              </div>
+              <div class="problem-item">
+                <div class="problem-icon">⚠️</div>
+                <h3>Outdated Methods</h3>
+                <p>Traditional farming no longer sufficient</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3: Our Solution -->
+        <!-- Slide 3: Our Solution -->
+        <div class="slide" data-slide="3">
+          <div class="slide-content">
+            <h1 class="slide-title">Smart Technology Meets Local Knowledge</h1>
+
+            <div class="problem-grid">
+              <!-- Reusing grid layout -->
+              <div class="problem-item">
+                <div class="problem-icon">🌱</div>
+                <h3>IoT Soil Sensors</h3>
+                <p>Real-time monitoring</p>
+              </div>
+              <div class="problem-item">
+                <div class="problem-icon">🧠</div>
+                <h3>AI Recommendations</h3>
+                <p>Data-driven decisions</p>
+              </div>
+              <div class="problem-item">
+                <div class="problem-icon">🚜</div>
+                <h3>Mechanized Services</h3>
+                <p>Affordable equipment access</p>
+              </div>
+              <div class="problem-item">
+                <div class="problem-icon">👥</div>
+                <h3>Farmer Training</h3>
+                <p>Capacity building & support</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 4: How It Works -->
+        <div class="slide" data-slide="4">
+          <div class="slide-content">
+            <h1 class="slide-title">How GreenGrow Works</h1>
+            <div class="process-flow">
+              <div class="process-step">
+                <div class="step-number">1</div>
+                <div class="step-icon">📊</div>
+                <h3>Data Collection</h3>
+                <p>Sensors monitor soil conditions</p>
+              </div>
+              <div class="process-arrow">→</div>
+              <div class="process-step">
+                <div class="step-number">2</div>
+                <div class="step-icon">🤖</div>
+                <h3>AI Analysis</h3>
+                <p>Generate recommendations</p>
+              </div>
+              <div class="process-arrow">→</div>
+              <div class="process-step">
+                <div class="step-number">3</div>
+                <div class="step-icon">📱</div>
+                <h3>Alerts</h3>
+                <p>Farmer receives guidance</p>
+              </div>
+              <div class="process-arrow">→</div>
+              <div class="process-step">
+                <div class="step-number">4</div>
+                <div class="step-icon">🛠️</div>
+                <h3>Service Access</h3>
+                <p>Equipment & support</p>
+              </div>
+              <div class="process-arrow">→</div>
+              <div class="process-step">
+                <div class="step-number">5</div>
+                <div class="step-icon">📈</div>
+                <h3>Monitoring</h3>
+                <p>Continuous optimization</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 5: Proven Impact -->
+        <div class="slide" data-slide="5">
+          <div class="slide-content">
+            <h1 class="slide-title">Transforming Lives, One Farm at a Time</h1>
+            <div class="impact-grid">
+              <div class="impact-metric">
+                <div class="metric-icon">📈</div>
+                <div class="metric-number" data-suffix="%">30%</div>
+                <div class="metric-label">Yield Increase<br />in Year 1</div>
+              </div>
+              <div class="impact-metric">
+                <div class="metric-icon">💰</div>
+                <div class="metric-number" data-suffix="%">40%</div>
+                <div class="metric-label">Reduction in<br />Labor Costs</div>
+              </div>
+              <div class="impact-metric">
+                <div class="metric-icon">💧</div>
+                <div class="metric-number" data-suffix="%">25%</div>
+                <div class="metric-label">Less Water &<br />Fertilizer Use</div>
+              </div>
+              <div class="impact-metric">
+                <div class="metric-icon">👨‍🌾</div>
+                <div class="metric-number" data-suffix="%">50</div>
+                <div class="metric-label">Tech Champions<br />per Region</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 6: Market & Scalability -->
+        <div class="slide" data-slide="6">
+          <div class="slide-content">
+            <h1 class="slide-title">Market & Scalability</h1>
+            <div class="market-info">
+              <div class="market-stat">
+                <h3>Target Market</h3>
+                <div class="big-number">146 million</div>
+                <p>Smallholder farmers in India</p>
+              </div>
+              <div class="market-stat">
+                <h3>Immediate Focus</h3>
+                <div class="focus-criteria">
+                  <p>🎯 Farmers with ≤5 hectares</p>
+                  <p>🌡️ Climate-vulnerable districts</p>
+                  <p>📍 Agro-climatic zone adaptability</p>
+                </div>
+              </div>
+              <div class="market-stat">
+                <h3>Future Vision</h3>
+                <div class="big-number">50 million</div>
+                <p>Farmers by 2030</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 7: Implementation Timeline -->
+        <div class="slide" data-slide="7">
+          <div class="slide-content">
+            <h1 class="slide-title">Implementation Timeline</h1>
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-marker">1</div>
+                <div class="timeline-content">
+                  <h3>Research & Discovery</h3>
+                  <p>Months 1-3</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-marker">2</div>
+                <div class="timeline-content">
+                  <h3>Prototype Development</h3>
+                  <p>Months 2-6</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-marker">3</div>
+                <div class="timeline-content">
+                  <h3>Pilot Deployment</h3>
+                  <p>Months 4-9 (200 farmers)</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-marker">4</div>
+                <div class="timeline-content">
+                  <h3>Training & Capacity</h3>
+                  <p>Months 6-12</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-marker">5</div>
+                <div class="timeline-content">
+                  <h3>Scale-up Operations</h3>
+                  <p>Months 10-15</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-marker">6</div>
+                <div class="timeline-content">
+                  <h3>Impact Assessment</h3>
+                  <p>Months 13-18</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 8: Budget & Resources -->
+        <div class="slide" data-slide="8">
+          <div class="slide-content">
+            <h1 class="slide-title">Budget & Resource Allocation</h1>
+            <div class="budget-container">
+              <div class="budget-total">
+                <h2></h2>
+                <div class="total-amount">Year 1 Budget</div>
+              </div>
+              <div class="budget-breakdown">
+                <div class="budget-item" style="--percentage: 30.5">
+                  <div class="budget-bar"></div>
+                  <div class="budget-label">
+                    <span class="budget-category">Equipment & Machinery</span>
+                    <span class="budget-percent">30.5%</span>
+                  </div>
+                </div>
+                <div class="budget-item" style="--percentage: 22">
+                  <div class="budget-bar"></div>
+                  <div class="budget-label">
+                    <span class="budget-category">IoT Sensor Deployment</span>
+                    <span class="budget-percent">22.0%</span>
+                  </div>
+                </div>
+                <div class="budget-item" style="--percentage: 15.8">
+                  <div class="budget-bar"></div>
+                  <div class="budget-label">
+                    <span class="budget-category">Training Programs</span>
+                    <span class="budget-percent">15.8%</span>
+                  </div>
+                </div>
+                <div class="budget-item" style="--percentage: 12.2">
+                  <div class="budget-bar"></div>
+                  <div class="budget-label">
+                    <span class="budget-category"
+                      >Operations & Maintenance</span
+                    >
+                    <span class="budget-percent">12.2%</span>
+                  </div>
+                </div>
+                <div class="budget-item" style="--percentage: 19.5">
+                  <div class="budget-bar"></div>
+                  <div class="budget-label">
+                    <span class="budget-category">Other Components</span>
+                    <span class="budget-percent">19.5%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 9: Why Us? Why Now? -->
+        <div class="slide" data-slide="9">
+          <div class="slide-content">
+            <h1 class="slide-title">Why Us? Why Now?</h1>
+            <div class="why-container">
+              <div class="why-section">
+                <h2>Perfect Timing</h2>
+                <div class="timing-items">
+                  <div class="timing-item">
+                    <span class="timing-icon">🏛️</span>
+                    <div>
+                      <strong>Digital Agriculture Mission</strong>
+                      <p>₹2,817 crore allocated by Government</p>
+                    </div>
+                  </div>
+                  <div class="timing-item">
+                    <span class="timing-icon">💼</span>
+                    <div>
+                      <strong>NABARD AgriTech Fund</strong>
+                      <p>₹1,000 crore available for innovation</p>
+                    </div>
+                  </div>
+                  <div class="timing-item">
+                    <span class="timing-icon">📊</span>
+                    <div>
+                      <strong>IoT Agriculture Market</strong>
+                      <p>$7.5B → $47.2B by 2034</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="why-section">
+                <h2>Our Advantage</h2>
+                <div class="advantage-items">
+                  <div class="advantage-item">
+                    <span class="advantage-icon">🎓</span>
+                    <p>
+                      Interdisciplinary team (AI, AgriTech, Rural Development)
+                    </p>
+                  </div>
+                  <div class="advantage-item">
+                    <span class="advantage-icon">🎯</span>
+                    <p>Focus on smallholder needs vs. large-scale solutions</p>
+                  </div>
+                  <div class="advantage-item">
+                    <span class="advantage-icon">🤝</span>
+                    <p>Community-centric approach with local partnerships</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 10: Call to Action -->
+        <div class="slide" data-slide="10">
+          <div class="slide-content cta-slide">
+            <div class="cta-vision">
+              <h1>Transforming 50 Million Smallholder Farmers</h1>
+              <p class="vision-subtitle">From subsistence to prosperity</p>
+            </div>
+
+            <div class="sdg-impact">
+              <h2>SDG Impact</h2>
+              <div class="sdg-goals">
+                <span class="sdg-goal">🎯 Zero Hunger</span>
+                <span class="sdg-goal">💼 Decent Work</span>
+                <span class="sdg-goal">🌱 Responsible Consumption</span>
+                <span class="sdg-goal">🌍 Climate Action</span>
+              </div>
+            </div>
+
+            <div class="cta-ask">
+              <h2>
+                Join us in building a sustainable, technology-enabled future for
+                rural India
+              </h2>
+              <div class="contact-info">
+                <h3>Team MSV</h3>
+                <p>Ready to make GreenGrow a reality</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Keyboard navigation hint -->
+     
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
